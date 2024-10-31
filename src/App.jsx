@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <div className="">logo</div>
       <div className="">
         <ul className="flex gap-10">{navigation?.map((item) => (
-          <li>{item?.title}</li>
+          <Link to={item?.link}>{item?.title}</Link>
         ))}</ul>
       </div>
     </div>
