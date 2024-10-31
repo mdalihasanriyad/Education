@@ -2,7 +2,7 @@ import React from 'react';
 import Container from './Container';
 import { Link } from 'react-router-dom';
 
-const Aboutus = () => {
+const AboutUs = () => {
     return (
         <Container>
             <div className="text-center my-20">
@@ -13,4 +13,4 @@ const Aboutus = () => {
     );
 };
 
-export default Aboutus;
+export default AboutUs;
