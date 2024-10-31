@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function App() {
   const navigation = [
     { title: "Home", link: "/" },
-    { title: "About us", link: "/aboutus" },
+    { title: "About us", link: "/about-us" },
     { title: "Instructors", link: "/instructors" },
     { title: "Students", link: "/students" },
     { title: "Pages", link: "/pages" },
@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <div className="max-w-screen-xl mx-auto flex items-center justify-between">
+    <div className="max-w-screen-xl mx-auto flex items-center justify-between my-6">
       <div className="">logo</div>
       <div className="">
         <ul className="flex gap-10">{navigation?.map((item) => (

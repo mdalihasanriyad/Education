@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home.jsx';
 import NotFount from './components/NotFount.jsx';
+import Aboutus from './components/aboutus.jsx';
 
 
 const Layout = () => {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },
+      {
+        path: "/about-us",
+        element: <Aboutus />
       },
       {
         path: "*",
