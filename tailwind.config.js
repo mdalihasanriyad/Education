@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "about-bg1": "url('/src/assets/AboutBanner1.png')",
+        "about-bg2": "url('/src/assets/aboutbanner2.png')",
+      },
+    },
   },
   plugins: [],
 };

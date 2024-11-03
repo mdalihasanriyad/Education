@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home.jsx';
 import NotFount from './components/NotFount.jsx';
-import AboutUs from './components/aboutus.jsx';
+import AboutUs from './components/AboutUs.jsx';
 
 
 const Layout = () => {

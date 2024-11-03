@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import logo from "./assets/MainLogo.svg"
 
 
 function App() {
@@ -15,10 +16,13 @@ function App() {
 
   return (
     <div className="max-w-screen-xl mx-auto flex items-center justify-between my-6">
-      <div className="">logo</div>
+      <Link to="/">
+
+        <img src={logo} alt="logo" className="w-32" />
+      </Link>
       <div className="">
         <ul className="flex gap-10">{navigation?.map((item) => (
-          <Link to={item?.link}>{item?.title}</Link>
+          <Link key={item.title} to={item?.link}>{item?.title}</Link>
         ))}</ul>
       </div>
     </div>
