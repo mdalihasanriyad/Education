@@ -1,7 +1,12 @@
 import React from 'react';
 import Container from './Container';
 import { Link } from 'react-router-dom';
+import share from './../assets/share.png'
 import join from './../assets/join.png'
+import become1 from './../assets/become-01.png'
+import become2 from './../assets/become-02.png'
+import { AiFillCheckCircle } from 'react-icons/ai';
+
 
 const AboutUs = () => {
     return (
@@ -45,6 +50,42 @@ const AboutUs = () => {
 
                 </div>
             </div>
+            <Container className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
+                <div className="">
+                    <img src={share} alt="" />
+                </div>
+                <div className="mt-14">
+                    <h2 className='text-4xl font-bold opacity-80'>Want to share your knowledge? Join us a Mentor</h2>
+                    <h4 className='text-xl font-medium opacity-50 my-8' >High-definition video is video of higher resolution and quality than standard-definition. While there is no standardized meaning for high-definition, generally any video.</h4>
+                    <div className='flex gap-3 items-center mb-3' > <AiFillCheckCircle className='text-red-500 text-2xl' />
+                        <p className='text-xl font-semibold opacity-55'>Best Courses</p></div>
+                    <div className='flex gap-3' > <AiFillCheckCircle className='text-red-500 text-2xl' /> <p className='text-xl font-semibold opacity-55 mb-8' >Top rated Instructors</p></div>
+                    <button className='border-[2px] border-blue-500 py-2 px-8 rounded-full bg-transparent hover:bg-blue-500 hover:text-white duration-300'>Read More</button>
+                </div>
+            </Container>
+            <div className="bg-about-bg3 h-full my-10">
+                <Container className='text-center text-white items-center justify-center py-20'>
+                    <h4 className='text-2xl font-bold'>Check out these real reviews</h4>
+                    <h2 className='text-4xl font-bold'>Users-love-us Don't take it from us.</h2>
+                </Container>
+            </div>
+            <Container className="grid grid-cols-1 lg:grid-cols-2 my-10 gap-8">
+                <div className="bg-pink-300 h-60  rounded-3xl p-6 flex ">
+                    <div className="">
+                        <h3 className='text-2xl font-bold'>Become An Instructor</h3>
+                        <p className='text-base font-semibold opacity-55 mt-4'>Top instructors from around the world teach millions of students on Mentoring.</p>
+                    </div>
+                    <img src={become2} alt="" className='w-60' />
+                </div>
+                <div className="bg-pink-300 h-60  rounded-3xl p-6 flex ">
+                    <div className="">
+                        <h3 className='text-2xl font-bold'>Become An Instructor</h3>
+                        <p className='text-base font-semibold opacity-55 mt-4'>Top instructors from around the world teach millions of students on Mentoring.</p>
+                    </div>
+                    <img src={become1} alt="" className='w-60' />
+                </div>
+
+            </Container>
         </div>
 
 

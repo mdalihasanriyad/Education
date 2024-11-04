@@ -6,6 +6,7 @@ export default {
       backgroundImage: {
         "about-bg1": "url('/src/assets/AboutBanner1.png')",
         "about-bg2": "url('/src/assets/aboutbanner2.png')",
+        "about-bg3": "url('/src/assets/user-love.jpg')",
       },
     },
   },
