@@ -13,7 +13,7 @@ const AboutUs = () => {
         <div className="">
             <div className="text-center my-20 bg-about-bg1 bg-inherit h-28 justify-center items-center">
                 <h2 className='text-5xl font-bold'>Abut Us</h2>
-                <div className='flex justify-center items-center gap-4 my-8'> <Link to="/" className='font-semibold'>Home</Link> <span className='bg-orange-500 w-2 h-1 rounded-xl'> {""}</span> <h3 className='font-semibold'>About Us</h3> </div>
+                <div className='flex justify-center items-center gap-4 my-8'> <Link to="/" className='font-semibold'>Home</Link> <span className='h-2 w-6 bg-orange-700 rounded-md mt-1" '> {""}</span> <h3 className='font-semibold'>About Us</h3> </div>
             </div>
             <Container>
                 <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center justify-between mt-10">

@@ -11,6 +11,7 @@ import {
 import Home from './components/Home.jsx';
 import NotFount from './components/NotFount.jsx';
 import AboutUs from './components/AboutUs.jsx';
+import Students from './components/Students.jsx';
 
 
 const Layout = () => {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/about-us",
         element: <AboutUs />
+      },
+      {
+        path: "/students",
+        element: <Students />
       },
       {
         path: "*",
