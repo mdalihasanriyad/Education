@@ -41,7 +41,7 @@ const AboutUs = () => {
                     </div>
                     <div className="bg-white shadow-lg rounded-2xl hover:-translate-y-2 duration-300 p-10">
                         <h3 className='font-bold text-3xl'>5K+</h3>
-                        <p className='font-semibold'>Ceritified Courses</p>
+                        <p className='font-semibold'>Certified Courses</p>
                     </div>
                     <div className="bg-white shadow-lg rounded-2xl hover:-translate-y-2 duration-300 p-10 ">
                         <h3 className='font-bold text-3xl'>55K+</h3>
@@ -66,7 +66,7 @@ const AboutUs = () => {
             <div className="bg-about-bg3 h-full my-10">
                 <Container className='text-center text-white items-center justify-center py-20'>
                     <h4 className='text-2xl font-bold'>Check out these real reviews</h4>
-                    <h2 className='text-4xl font-bold'>Users-love-us Don't take it from us.</h2>
+                    <h2 className='text-4xl font-bold'>Users-love-us Do not take it from us.</h2>
                 </Container>
             </div>
             <Container className="grid grid-cols-1 lg:grid-cols-2 my-10 gap-8">
