@@ -12,6 +12,7 @@ import Home from './components/Home.jsx';
 import NotFount from './components/NotFount.jsx';
 import AboutUs from './components/AboutUs.jsx'
 import Students from './components/Students.jsx';
+import Footer from './components/Footer.jsx';
 
 
 const Layout = () => {
@@ -19,6 +20,7 @@ const Layout = () => {
     <div className="">
       <App />
       <Outlet />
+      <Footer />
     </div>
   )
 }
